@@ -8,4 +8,4 @@ E somente para estudos!
 
 ```sh
   O script em python só foi disponibilizado por não ser mais utilizado.
-```sh
+```
