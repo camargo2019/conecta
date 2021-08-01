@@ -1,0 +1,73 @@
+{'version': '1.0',
+  'employee': {'id': 38, 'name': 'Malu Emilly Pires', 'cpf': '317.244.528-35', 'timezone': '0', 'datetime': '23/11/2020 03:20:32', 'imagem': {'file_path': '/download/', 'file_name': 'imagem_chat_0000027.jpg'}},
+  'hierarch_group': [
+    {'id': 647, 'employee_id': 5, 'name': 'Jurema da Silva', 'hierarchy': {'id': 2, 'description': 'Supervisor'},
+      'imagem': {'file_name': 'imagem_chat_0000002.jpg', 'file_path': '/download/'}
+    },
+    {'id': 622, 'employee_id': 2, 'name': 'Luciano Mercadante Matarazzo Cuoco', 'hierarchy': {
+      'id': 3, 'description': 'Coordenador'}, 'imagem': {'file_name': 'imagem_chat_0000008.jpg', 'file_path': '/download/'}
+    },
+    {'id': 621, 'employee_id': 1, 'name': 'Ricardo de Padua', 'hierarchy': {'id': 4, 'description': 'Gerente'}, 'imagem': {'file_name': 'imagem_chat_0000004.jpg', 'file_path': '/download/'}}], 'my_workday': {'0': {'id': 3, 'description': 'Noite', 'start': {'start_time': '19:00', 'workday_notifications': [{'start_workday': True, 'type': 'now', 'seconds': 0, 'notification': {'message': 'Inicie agora sua jornada de trabalho.', 'stay_open': True, 'wait': 0}}, {'start_workday': False, 'type': 'before', 'seconds': 600, 'notification': {'message': 'Faltam alguns minutos para o inicio da sua \\r\\njornada de trabalho.', 'stay_open': False, 'wait': 3}}]}, 'end': {'end_time': '00:00', 'workday_notifications': [{'start_workday': False, 'type': 'before', 'seconds': 600, 'notification': {'message': 'Faltam alguns minutos para o fim da sua jornada de trabalho.', 'stay_open': False, 'wait': 15}}, {'start_workday': False, 'type': 'now', 'seconds': 0, 'notification': {'message': 'Fim de Jornada de trabalho.', 'stay_open': True, 'wait': 0}}]}}, 'workday_interval': [{'id': 23, 'description': 'Intervalo para o Lanche', 'start': {'start_time': '19:00', 'workday_notifications': [{'start_workday': False, 'type': 'now', 'seconds': 0, 'notification': {'message': 'Inicio do intervalo.', 'stay_open': False, 'wait': 0}}]}, 'end': {'end_time': '19:15', 'workday_notifications': []}}, {'id': 24, 'description': 'Intervalo para o Chá.', 'start': {'start_time': '23:00', 'workday_notifications': [{'start_workday': False, 'type': 'now', 'seconds': 0, 'notification': {'message': 'Inicio do intervalo.', 'stay_open': False, 'wait': 0}}]}, 'end': {'end_time': '23:15', 'workday_notifications': []}}]}, 'biometric_verification': {'account': {'address': 'https://coreapi.simpleid.com.br', 'client_code': '114248', 'user': 'topconecta', 'password': 'L47DXsp5', 'api_key': '24af4fd5-c0aa-47a7-a314-989df4ca3855', 'subscription_key': '4001dcafc68b4b9d995e5d25eefacfdf'}, 'registered': False, 'data_call_biometric': {'person': {'person_id': 45, 'name': 'Malu Emilly Pires', 'number_doc_id': '317.244.528-35', 'custom_field1': 'Sandra Pires'}, 'serviceProvider': {'code': 1, 'name': 'MOTIVA', 'operator_code': '73.741.902/0001-52', 'operator_name': 'TopConecta', 'custom_field1': '46.181.022/0001-04'}}, 'verification': [{'employee_biometry_id': 247, 'period': '23/11/2020 21:42', 'message': 'Se posicione\xa0a câmera\xa0para\xa0 a captura da sua biometria facial.', 'stay_open': True, 'wait': 0}, {'employee_biometry_id': 248, 'period': '23/11/2020 22:09', 'message': 'Se posicione\xa0a câmera\xa0para\xa0 a captura da sua biometria facial.', 'stay_open': True, 'wait': 0}, {'employee_biometry_id': 249, 'period': '23/11/2020 22:42', 'message': 'Se posicione\xa0a câmera\xa0para\xa0 a captura da sua biometria facial.', 'stay_open': True, 'wait': 0}]},
+  'status': {'result': 'success', 'message': 'Jornada iniciada com sucesso!', 'display': True}}
+
+
+{"version":"1.0",
+  "employee":{
+    "id":38,
+    "name":"Malu Emilly Pires",
+    "cpf":"317.244.528-35",
+    "timezone":"0",
+    "datetime":"24\/11\/2020 18:17:04",
+    "imagem":{"file_path":"\/download\/","file_name":"imagem_chat_0000027.jpg"}
+  },
+  "hierarch_group":[
+    {
+      "id":647,
+      "employee_id":5,
+      "name":"Jurema da Silva",
+      "hierarchy":{"id":2,"description":"Supervisor"},
+      "imagem":{
+        "file_name":"imagem_chat_0000002.jpg",
+        "file_path":"\/download\/"}},
+    {"id":622,"employee_id":2,"name":"Luciano Mercadante Matarazzo Cuoco","hierarchy":{"id":3,"description":"Coordenador"},"imagem":{"file_name":"imagem_chat_0000008.jpg","file_path":"\/download\/"}},{"id":621,"employee_id":1,"name":"Ricardo de Padua","hierarchy":{"id":4,"description":"Gerente"},"imagem":{"file_name":"imagem_chat_0000004.jpg","file_path":"\/download\/"}}],"my_workday":{"0":{"id":3,"description":"Noite","start":{"start_time":"19:00","workday_notifications":[{"start_workday":true,"type":"now","seconds":0,"notification":{"message":"Inicie agora sua jornada de trabalho.","stay_open":true,"wait":0}},{"start_workday":false,"type":"before","seconds":600,"notification":{"message":"Faltam alguns minutos para o inicio da sua \\r\\njornada de trabalho.","stay_open":false,"wait":3}}]},"end":{"end_time":"00:00","workday_notifications":[{"start_workday":false,"type":"before","seconds":600,"notification":{"message":"Faltam alguns minutos para o fim da sua jornada de trabalho.","stay_open":false,"wait":15}},{"start_workday":false,"type":"now","seconds":0,"notification":{"message":"Fim de Jornada de trabalho.","stay_open":true,"wait":0}}]}},"workday_interval":[{"id":23,"description":"Intervalo para o Lanche","start":{"start_time":"19:00","workday_notifications":[{
+  "start_workday":false,"type":"now","seconds":0,
+  "notification":{"message":"Inicio do intervalo.","stay_open":false,"wait":0}}]},
+  "end":{"end_time":"19:15","workday_notifications":[]}
+},
+  {
+  "id":24,
+  "description":"Intervalo para o Ch\u00e1.",
+  "start":{"start_time":"23:00",
+  "workday_notifications":[{"start_workday":false,"type":"now","seconds":0,
+  "notification":{"message":"Inicio do intervalo.","stay_open":false,"wait":0}}]},
+  "end":{"end_time":"23:15","workday_notifications":[]}
+}
+]
+},
+  "biometric_verification":{
+  "account":{
+  "address":"https:\/\/coreapi.simpleid.com.br",
+  "client_code":"114248",
+  "user":"topconecta",
+  "password":"L47DXsp5",
+  "api_key":"24af4fd5-c0aa-47a7-a314-989df4ca3855",
+  "subscription_key":"4001dcafc68b4b9d995e5d25eefacfdf"},
+  "registered":false,
+  "data_call_biometric":{
+    "person":{
+      "person_id":45,
+      "name":"Malu Emilly Pires",
+      "number_doc_id":"317.244.528-35",
+      "custom_field1":"Sandra Pires"
+    },
+  "serviceProvider":{
+    "code":1,
+    "name":"MOTIVA",
+    "operator_code":"73.741.902\/0001-52",
+    "operator_name":"TopConecta","custom_field1":"46.181.022\/0001-04"}},
+  "verification":
+  [
+    {"employee_biometry_id":316,"period":"24\/11\/2020 22:02","message":"Se posicione\u00a0a c\u00e2mera\u00a0para\u00a0 a captura da sua biometria facial.","stay_open":true,"wait":0},
+  {"employee_biometry_id":317,"period":"24\/11\/2020 22:20","message":"Se posicione\u00a0a c\u00e2mera\u00a0para\u00a0 a captura da sua biometria facial.","stay_open":true,"wait":0},
+  {"employee_biometry_id":318,"period":"24\/11\/2020 23:28","message":"Se posicione\u00a0a c\u00e2mera\u00a0para\u00a0 a captura da sua biometria facial.","stay_open":true,"wait":0}]},
+  "status":{"result":"success","message":"Jornada iniciada com sucesso!","display":true}}

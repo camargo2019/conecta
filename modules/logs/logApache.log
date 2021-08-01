@@ -1,0 +1,478 @@
+INFO:simple_http_server.http_server:Dispatcher Http Server starts. Listen to port [80]
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET / HTTP/1.1" 200 -
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:Dispatcher Http Server starts. Listen to port [80]
+INFO:simple_http_server.http_server:Dispatcher Http Server starts. Listen to port [80]
+INFO:simple_http_server.http_server:Dispatcher Http Server starts. Listen to port [80]
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET / HTTP/1.1" 400 -
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET / HTTP/1.1" 400 -
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:Dispatcher Http Server starts. Listen to port [80]
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 133, in do_chain
+    kwargs = self.__prepare_kwargs()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 206, in __prepare_kwargs
+    kwarg_vals[k] = self.__build_str(k, v)
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 323, in __build_str
+    return Parameter(name=key, default=val, required=False)
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\__init__.py", line 161, in __new__
+    assert isinstance(default, str) or isinstance(default, unicode)
+AssertionError
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET / HTTP/1.1" 500 -
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:Dispatcher Http Server starts. Listen to port [80]
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 133, in do_chain
+    kwargs = self.__prepare_kwargs()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 206, in __prepare_kwargs
+    kwarg_vals[k] = self.__build_str(k, v)
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 323, in __build_str
+    return Parameter(name=key, default=val, required=False)
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\__init__.py", line 161, in __new__
+    assert isinstance(default, str) or isinstance(default, unicode)
+AssertionError
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET / HTTP/1.1" 500 -
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 133, in do_chain
+    kwargs = self.__prepare_kwargs()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 206, in __prepare_kwargs
+    kwarg_vals[k] = self.__build_str(k, v)
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 323, in __build_str
+    return Parameter(name=key, default=val, required=False)
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\__init__.py", line 161, in __new__
+    assert isinstance(default, str) or isinstance(default, unicode)
+AssertionError
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET / HTTP/1.1" 500 -
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:Dispatcher Http Server starts. Listen to port [80]
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET / HTTP/1.1" 200 -
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET / HTTP/1.1" 200 -
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET / HTTP/1.1" 200 -
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:Dispatcher Http Server starts. Listen to port [80]
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET / HTTP/1.1" 200 -
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET / HTTP/1.1" 200 -
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:Dispatcher Http Server starts. Listen to port [80]
+INFO:simple_http_server.http_server:Dispatcher Http Server starts. Listen to port [80]
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET / HTTP/1.1" 200 -
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET / HTTP/1.1" 200 -
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
+INFO:simple_http_server.http_server:127.0.0.1 -  "GET /favicon.ico HTTP/1.1" 200 -
+ERROR:simple_http_server.http_server:error occurs! returning 500
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 410, in __process
+    ctx.do_chain()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 165, in do_chain
+    self.response.send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 98, in send_response
+    self.__send_response()
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 103, in __send_response
+    self.__req_handler._send_response({
+  File "D:\Program Files (x86)\Python38-32\lib\site-packages\simple_http_server\http_server.py", line 607, in _send_response
+    file_size = os.path.getsize(body.file_path)
+  File "D:\Program Files (x86)\Python38-32\lib\genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'D:\\Program Files (x86)\\Python38-32\\lib\\site-packages\\simple_http_server/favicon.ico'
