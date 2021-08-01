@@ -7,5 +7,5 @@ Não iremos fazer atualizações.
 E somente para estudos!
 
 ```sh
-  O script em python só foi disponibilizado por não ser mais utilizado!
+  O script em python só foi disponibilizado por não ser mais utilizado.
 ```sh
